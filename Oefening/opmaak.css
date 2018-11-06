@@ -8,6 +8,7 @@ h2
 }
 body {
     background-image: url("../Img/pinkbackground.png");
+    background-repeat: repeat-x;
     font-family: Arial, Helvetica sans-serif;
     text-align: center;
     }
@@ -23,4 +24,23 @@ body {
         background-color: transparent;
         text-decoration: none;
 
+    }
+    p.one {
+        border-style: dashed; border-width: 5px 
+    }
+    div {
+        position: fixed;
+        background-color: rgb(255, 10, 202);
+        width: 300px;
+        border: 20px solid rgb(110, 0, 68);
+        padding: 20px;
+        margin: 20px;
+    }
+    div.number {
+        font-size: 50px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid red;
     }

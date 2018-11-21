@@ -9,9 +9,14 @@ h1
 }
 body
 {
-    background-image: url(../Img/bouwplanScouts.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#Main{
+    background-image: url(../Img/bouwplanScouts.jpg);
+}                                                       /*ik weet niet of deze voor opdracht 31 is of niet*/
+#DeGeuzen{
+    background-color: beige;
 }
 ul {
     list-style-type: none;
@@ -34,10 +39,10 @@ li a {
     font-weight: bold;
 }
 
-li a:hover {
+li a:hover {/*dit is voor opdracht 31*/
     background-color: #111;
 }
-img{
+article img{/*dit is voor opdracht 31*/
     float: right;
     width: 200px;
     height: 200px;
@@ -53,24 +58,27 @@ article{
     padding: 0%;
     width: 35%;
 }
-.clearfix {
+.clearfix {/*dit is voor opdracht31*/
     overflow: auto;
 }
-footer{
+footer p{/*dit is voor opdracht 31*/
     text-align: center;
     font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
     clear: both;
+    color: brown;
+    font-weight: bold;
     
 }
 @media screen and (max-width: 600px) {
-footer {
+footer{
     text-align: center;
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
     clear: both;
 }
 }
-a{
+a:active{/*dit is voor opdracht 31*/
     text-decoration: underline;
+    
 }

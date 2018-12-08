@@ -1,8 +1,8 @@
 h1
 {
     text-align: center;
-    background-color: rgb(39, 219, 39);
-    color: rgb(5, 83, 5);
+    background-color: rgb(33, 136, 33);
+    color: rgb(3, 61, 1);
     font-size: 500%;
     margin-bottom: 0%;
     margin-top: 0%;
@@ -16,6 +16,9 @@ body
     background-image: url(../Img/bouwplanScouts.jpg);
 }                                                       /*ik weet niet of deze voor opdracht 31 is of niet*/
 #DeGeuzen{
+    background-color: beige;
+}
+#Inschrijven{
     background-color: beige;
 }
 ul {

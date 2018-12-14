@@ -21,6 +21,10 @@ body
 #Inschrijven{
     background-color: beige;
 }
+#Takken{
+    background-color: beige;
+    text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,10 +45,10 @@ li a {
     text-decoration: none;
     font-weight: bold;
 }
-
 li a:hover {/*dit is voor opdracht 31*/
     background-color: #111;
 }
+
 article img{/*dit is voor opdracht 31*/
     float: right;
     width: 200px;
@@ -84,4 +88,11 @@ footer{
 a:active{/*dit is voor opdracht 31*/
     text-decoration: underline;
     
+}
+#footer :hover{
+    color: red;
+}
+#KabouterLeiding{
+    width: 50%;
+    height: 50%;
 }

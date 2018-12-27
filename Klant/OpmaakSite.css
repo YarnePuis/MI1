@@ -11,6 +11,7 @@ body
 {
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 #Main{
     background-image: url(../Img/bouwplanScouts.jpg);
@@ -20,6 +21,19 @@ body
 }
 #Inschrijven{
     background-color: beige;
+    text-align: center;
+}
+.FotoInschrijving{
+    width: 35vw;
+    height: 25vw;
+    float: left;
+    clear: left;
+}
+.FotoInschrijving1{
+    width: 35vw;
+    height: 25vw;
+    float: right;
+    clear: right;
 }
 #Takken{
     background-color: beige;
@@ -92,7 +106,7 @@ a:active{/*dit is voor opdracht 31*/
 #footer :hover{
     color: red;
 }
-#KabouterLeiding{
-    width: 50%;
-    height: 50%;
+.Fotoleiding{
+    width: 50vw;
+    height: 70vh;
 }
